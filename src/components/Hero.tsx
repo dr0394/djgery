@@ -31,45 +31,43 @@ const Hero = ({ onOpenBooking, onOpenAbout }: HeroProps) => {
                 </div>
               </div>
 
-              <div className="relative border-2 inline-block px-8 py-4" style={{ borderColor: 'rgba(255, 255, 255, 0.2)' }}>
-                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight">
-                  Feel the Vibes of Ibiza<br />
-                  <span style={{ color: '#FF0000' }}>HOUSE MUSIC ON</span>
-                </h1>
-              </div>
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
+                Feel the Vibe<br />Ignite the Dancefloor
+              </h1>
 
-              <div className="relative inline-block mt-6">
-                <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
+              <div className="relative">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold leading-tight">
                   <span
-                    className="inline-block relative px-8 py-3"
+                    className="inline-block relative px-4 py-2"
                     style={{
                       color: '#FFFFFF',
-                      background: 'linear-gradient(to right, #FF6C01, #FF8C3A)',
                       filter: 'drop-shadow(0 0 20px rgba(255, 108, 1, 0.4))'
                     }}
                   >
-                    Gery White
+                    DJ Gery White
+                    <span
+                      className="absolute inset-0 -z-10"
+                      style={{
+                        background: 'linear-gradient(to right, #FF6C01, #FF8C3A)',
+                        opacity: '0.85',
+                        transform: 'skewY(-1deg)',
+                        borderRadius: '4px',
+                        boxShadow: '0 4px 20px rgba(255, 108, 1, 0.4)'
+                      }}
+                    />
                   </span>
                 </h2>
               </div>
 
-              <div className="space-y-2 pt-6">
-                <p className="text-lg md:text-xl font-bold leading-relaxed" style={{ color: '#FF0000' }}>
-                  Gery White - int. DJ & Produzent
-                </p>
-                <p className="text-lg md:text-xl font-bold leading-relaxed" style={{ color: '#FF0000' }}>
-                  Worldwide Shows
-                </p>
-                <p className="text-lg md:text-xl font-bold leading-relaxed" style={{ color: '#FF0000' }}>
-                  EDM Lover
-                </p>
-              </div>
+              <p className="text-base md:text-lg text-gray-300/90 leading-relaxed max-w-xl">
+                DJ Gery White ist ein internationaler DJ & Produzent, der Dancefloors rund um den Globus entfacht. Mit dynamischen House- und Groove-Beats bringt er jede Party zum Beben.
+              </p>
 
-              <div className="space-y-4 pt-6">
+              <div className="space-y-4 pt-4">
                 {[
-                  'House | Tech-House | Minimal - House - Balearic House...',
+                  'House | Tech-House | Afro & Progressive',
                   'Internationale Shows & Events',
-                  'Clubsound & Ibiza-Vibes'
+                  'Club-Game & Ibiza-Vibes'
                 ].map((benefit, index) => (
                   <div key={index} className="flex items-center gap-3">
                     <div

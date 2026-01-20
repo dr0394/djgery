@@ -689,8 +689,8 @@ export const translations = {
       subtitle: 'Professionelle DJ-Services, erstklassiges Equipment und unvergessliche Erlebnisse',
       djService: {
         title: 'DJ Service',
-        description: '',
-        features: ['Professionelle DJ`s', 'Dancers', 'Saxophone', 'Violine', 'Sänger', 'Piano', 'Drummers...']
+        description: 'Breites Spektrum an Musikstilen: Rock, Pop, Oldies, Charts, Dance Classics, Latin, Funk, Soul & R&B, Hip-Hop, Deutsche Schlager',
+        features: ['Fast 30 Jahre DJ-Erfahrung', 'Musikwünsche willkommen', 'Professionelle Moderation']
       },
       equipment: {
         title: 'Eventtechnik & PA-Verleih',
@@ -710,7 +710,7 @@ export const translations = {
       cta: 'Pakete Ansehen',
       clubs: {
         title: 'Club Shows',
-        description: 'TOP House-Sets in den angesagtesten Clubs weltweit'
+        description: 'Energetische House-Sets in den angesagtesten Clubs weltweit'
       },
       festivals: {
         title: 'Festivals',
@@ -767,7 +767,7 @@ export const translations = {
     sound: {
       badge: 'Sound & Style',
       title: 'Der Sound',
-      subtitle: 'Von House über Deep House bis Minimal Tech House Bass House Balearic House... ein unverwechselbarer Sound der jede Tanzfläche füllt',
+      subtitle: 'Von deep und groovy bis zu Peak-Time Energy – ein unverwechselbarer Sound, der jede Tanzfläche bewegt',
       genresTitle: 'Musikgenres & Styles',
       genres: [
         'House Music',

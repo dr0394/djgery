@@ -26,11 +26,9 @@ const DJDetails = () => {
           <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight">
             {t.sound.title}
           </h2>
-          <div className="max-w-4xl mx-auto border-2 p-6 rounded-lg" style={{ borderColor: '#FF0000' }}>
-            <p className="text-xl md:text-2xl font-bold leading-relaxed" style={{ color: '#FF0000' }}>
-              {t.sound.subtitle}
-            </p>
-          </div>
+          <p className="text-xl md:text-2xl text-gray-300/90 max-w-3xl mx-auto leading-relaxed">
+            {t.sound.subtitle}
+          </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 lg:gap-16 items-start mb-16">
