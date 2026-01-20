@@ -42,11 +42,6 @@ const Testimonials = () => {
               key={index}
               className="bg-white/95 backdrop-blur-sm p-8 rounded-lg shadow-lg hover:shadow-xl transition-all group relative"
             >
-              {index === 0 && (
-                <div className="absolute top-4 right-4 bg-gradient-to-r from-brand-fire-red to-brand-fire-orange text-white text-xs font-bold px-3 py-1 rounded-full">
-                  NEU
-                </div>
-              )}
               <div className="flex items-start space-x-4 mb-4">
                 <div className="flex-1">
                   <h3 className="text-gray-900 font-semibold text-base">{testimonial.name}</h3>

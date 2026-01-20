@@ -678,9 +678,9 @@ export const translations = {
       contact: 'Kontakt'
     },
     hero: {
-      subtitle: 'Internationaler House & Tech-House DJ',
+      subtitle: 'International DJ & Producer',
       title: 'DJ Gery White',
-      description: 'Die Energie von Ibiza auf Dancefloors weltweit. Erlebe pure House Music Vibes, die jede Crowd bewegen.',
+      description: 'House Music und Ibiza Vibes auf Dancefloors weltweit. Professionelle DJ-Sets mit Energie und Leidenschaft.',
       cta: 'Jetzt Buchen'
     },
     services: {
@@ -710,7 +710,7 @@ export const translations = {
       cta: 'Pakete Ansehen',
       clubs: {
         title: 'Club Shows',
-        description: 'Energetische House-Sets in den angesagtesten Clubs weltweit'
+        description: 'Energetische House-Sets in Clubs weltweit'
       },
       festivals: {
         title: 'Festivals',
@@ -726,7 +726,7 @@ export const translations = {
       },
       radio: {
         title: 'Radio Shows',
-        description: 'Exklusive Radio-Mixe und Live-Streaming Sessions'
+        description: 'Radio-Mixe und Live-Streaming Sessions'
       },
       special: {
         title: 'Special Gigs',
@@ -735,8 +735,8 @@ export const translations = {
     },
     music: {
       badge: 'Music & Sounds',
-      title: 'Exklusive Sets & Mixe',
-      subtitle: 'Höre exklusive Sets & Mixe – von afro-progressiven Sounds bis zu Deep-House-Sessions. Bereit für deinen nächsten Dancefloor-Moment.',
+      title: 'Exklusive Sets',
+      subtitle: 'Live Sets und Radio Shows – von House und Tech-House bis zu Deep- und Progressive-Sounds.',
       categories: [
         {
           title: 'House & Tech-House',
@@ -767,7 +767,7 @@ export const translations = {
     sound: {
       badge: 'Sound & Style',
       title: 'Der Sound',
-      subtitle: 'Von deep und groovy bis zu Peak-Time Energy – ein unverwechselbarer Sound, der jede Tanzfläche bewegt',
+      subtitle: 'Von deep und groovy bis zu Peak-Time Energy – House Music, die bewegt',
       genresTitle: 'Musikgenres & Styles',
       genres: [
         'House Music',
@@ -775,37 +775,35 @@ export const translations = {
         'Deep House',
         'Progressive House',
         'Afro House',
-        'Tribal Beats',
-        'Melodic Techno',
-        'Ibiza Vibes'
+        'Melodic Techno'
       ],
       dynamicSets: {
         title: 'Dynamische Sets',
-        description: 'Jedes Set ist eine musikalische Reise – von energetischen Grooves bis zu emotionalen Melodien, perfekt abgestimmt auf die Crowd und den Moment.'
+        description: 'Jedes Set ist eine musikalische Reise – von energetischen Grooves bis zu emotionalen Melodien.'
       },
       producer: {
         title: 'Producer & DJ',
-        description: 'Nicht nur DJ, sondern auch Producer – mit eigenen Tracks und Remixes, die in Sets weltweit gespielt werden und die Dancefloors bewegen.'
+        description: 'DJ und Producer – mit eigenen Tracks und Remixes für Dancefloors weltweit.'
       },
       experience: {
         title: 'Internationale Erfahrung',
-        description: 'Mit Shows in Clubs, Festivals und Events weltweit – professionelle Performance und ein unverwechselbarer Sound, der jede Location zum Hotspot macht.'
+        description: 'Shows in Clubs, Festivals und Events weltweit – professionelle Performance mit unverwechselbarem Sound.'
       },
       journeyTitle: 'Die Performance-Journey',
       buildUp: {
         step: '01',
         title: 'Build-Up',
-        description: 'Der perfekte Einstieg – subtile Grooves, die die Energie langsam aufbauen und die Crowd einfangen'
+        description: 'Subtile Grooves, die die Energie langsam aufbauen'
       },
       peakTime: {
         step: '02',
         title: 'Peak Time',
-        description: 'Volle Power – treibende Beats, hypnotische Basslines und energetische Drops, die den Dancefloor zum Kochen bringen'
+        description: 'Treibende Beats und energetische Drops für den Dancefloor'
       },
       journey: {
         step: '03',
         title: 'The Journey',
-        description: 'Emotionale Momente und unerwartete Twists – ein musikalisches Erlebnis, das lange nachhallt'
+        description: 'Emotionale Momente und musikalische Höhepunkte'
       }
     },
     gallery: {
@@ -814,9 +812,9 @@ export const translations = {
       subtitle: 'Die Energie, die Vibes und unvergessliche Dancefloor-Momente aus der ganzen Welt einfangen'
     },
     contact: {
-      badge: 'Kontakt Aufnehmen',
+      badge: 'Kontakt',
       title: 'Booking & Kontakt',
-      subtitle: 'Bereit, die Vibes zu deinem nächsten Event zu bringen? Lass uns verbinden und unvergessliche Momente zusammen schaffen',
+      subtitle: 'Für Buchungsanfragen und weitere Informationen stehe ich gerne zur Verfügung',
       email: 'E-Mail',
       instagram: 'Instagram',
       agency: 'Booking Agentur',
@@ -903,9 +901,9 @@ export const translations = {
     testimonials: {
       badge: 'Bewertungen',
       title: 'Bewertungen',
-      rating: 'Basierend auf 200+ zufriedenen Kunden',
+      rating: 'Basierend auf zufriedenen Kunden',
       cta: 'Jetzt anfragen',
-      overline: 'Über 200 erfolgreiche Events für begeisterte Gäste',
+      overline: 'Erfolgreiche Events für begeisterte Gäste',
       items: [
         {
           name: 'Marco R.',
@@ -942,21 +940,21 @@ export const translations = {
     processSteps: {
       badge: 'So einfach geht\'s',
       title: 'In 3 Schritten\nzum perfekten Event',
-      cta: 'Jetzt unverbindlich anfragen',
+      cta: 'Jetzt anfragen',
       steps: [
         {
           title: 'Anfrage stellen',
-          description: 'Kontaktieren Sie mich per WhatsApp oder E-Mail mit Ihrem Wunschtermin und Event-Details',
+          description: 'Kontaktaufnahme per WhatsApp oder E-Mail mit Wunschtermin und Event-Details',
           action: 'Jetzt anfragen'
         },
         {
-          title: 'Kurz abstimmen',
-          description: 'Wir besprechen Ihre Wünsche, Musikstil, Ablauf und alle weiteren Details in einem kurzen Gespräch',
+          title: 'Abstimmung',
+          description: 'Besprechung von Wünschen, Musikstil und Ablauf',
           action: 'Beratung'
         },
         {
           title: 'Event genießen',
-          description: 'Am Tag Ihrer Feier kümmere ich mich um alles – Sie entspannen sich und genießen Ihr perfektes Event',
+          description: 'Professionelle Durchführung am Tag der Veranstaltung',
           action: 'Feiern'
         }
       ]
@@ -964,42 +962,42 @@ export const translations = {
     faq: {
       badge: 'FAQ',
       title: 'Häufige\nFragen',
-      subtitle: 'Hier finden Sie Antworten auf die wichtigsten Fragen rund um unsere DJ- und Veranstaltungsservices. Haben Sie weitere Fragen? Kontaktieren Sie uns gerne!',
+      subtitle: 'Antworten auf die wichtigsten Fragen zu DJ- und Veranstaltungsservices.',
       ctaTitle: 'Ihre Frage ist nicht dabei?',
-      ctaSubtitle: 'Kein Problem! Unser Team steht Ihnen gerne für alle Fragen zur Verfügung. Kontaktieren Sie uns und wir helfen Ihnen weiter.',
-      ctaButton: 'Jetzt Kontakt aufnehmen',
+      ctaSubtitle: 'Kontaktieren Sie mich gerne für weitere Informationen.',
+      ctaButton: 'Kontakt aufnehmen',
       items: [
         {
           question: 'Wie schnell können Sie verfügbar sein?',
-          answer: 'In der Regel melden wir uns innerhalb von 24 Stunden auf Ihre Anfrage. Für kurzfristige Events versuchen wir unser Bestes – kontaktieren Sie uns einfach!'
+          answer: 'Rückmeldung innerhalb von 24 Stunden. Auch kurzfristige Anfragen möglich.'
         },
         {
           question: 'Welche Musikrichtungen spielen Sie?',
-          answer: 'Von Charts und Pop über Rock, Hip-Hop, Dance, Schlager bis hin zu 80er/90er und Oldies – wir haben für jeden Geschmack die richtige Musik. Ihre Musikwünsche sind herzlich willkommen!'
+          answer: 'House, Tech-House, Deep House, Progressive House und weitere Genres. Musikwünsche sind willkommen.'
         },
         {
           question: 'Wie lange dauert ein DJ-Set?',
-          answer: 'Die Dauer richten wir ganz nach Ihren Wünschen – ob 3 Stunden oder die ganze Nacht. Wir besprechen das im Vorgespräch und stimmen den Ablauf genau ab.'
+          answer: 'Flexible Dauer nach Ihren Wünschen – von 3 Stunden bis zur ganzen Nacht.'
         },
         {
           question: 'Können Gäste Musikwünsche äußern?',
-          answer: 'Selbstverständlich! Sowohl vorab als auch während der Veranstaltung nehmen wir gerne Musikwünsche entgegen.'
+          answer: 'Ja, sowohl vorab als auch während der Veranstaltung.'
         },
         {
           question: 'Was kosten Ihre Pakete?',
-          answer: 'Paketpreise auf Anfrage, da jede Feier anders ist. Die Preise sind abhängig von Gästezahl, Spielzeit, Technik und Entfernung. Kontaktieren Sie uns für ein individuelles Angebot.'
+          answer: 'Individuelle Preise auf Anfrage, abhängig von Gästezahl, Spielzeit, Technik und Entfernung.'
         },
         {
           question: 'Wie viel Vorlaufzeit brauchen Sie für den Aufbau?',
-          answer: 'In der Regel benötigen wir 1-2 Stunden für den Aufbau der Technik. Den genauen Zeitplan stimmen wir im Vorfeld mit Ihnen und der Location ab.'
+          answer: '1-2 Stunden für den Aufbau. Zeitplan wird im Vorfeld abgestimmt.'
         },
         {
           question: 'Bieten Sie auch Moderation an?',
-          answer: 'Ja! Auf Wunsch übernehme ich gerne die Moderation Ihrer Veranstaltung – für Ansagen, Spiele oder einen unterhaltsamen Programmablauf.'
+          answer: 'Ja, auf Wunsch übernehme ich die Moderation der Veranstaltung.'
         },
         {
           question: 'Fahren Sie auch außerhalb an?',
-          answer: 'Ja, wir kommen gerne auch zu Veranstaltungen außerhalb. Die Anfahrt wird individuell berechnet und mit Ihnen abgestimmt.'
+          answer: 'Ja, Anfahrt wird individuell berechnet und abgestimmt.'
         }
       ]
     }
