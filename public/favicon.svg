@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="fireGradient" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF4500;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FF8C00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFD700;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Flame shape -->
+  <path d="M 50 10 Q 35 30, 40 50 Q 38 60, 35 70 Q 40 85, 50 90 Q 60 85, 65 70 Q 62 60, 60 50 Q 65 30, 50 10 Z"
+        fill="url(#fireGradient)"
+        stroke="#FF4500"
+        stroke-width="1"/>
+
+  <!-- Inner flame highlight -->
+  <path d="M 50 20 Q 43 35, 45 50 Q 44 58, 45 65 Q 48 72, 50 75 Q 52 72, 55 65 Q 56 58, 55 50 Q 57 35, 50 20 Z"
+        fill="#FFD700"
+        opacity="0.6"/>
+</svg>

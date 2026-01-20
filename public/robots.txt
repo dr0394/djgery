@@ -1,0 +1,44 @@
+# robots.txt für DJ Gery White
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.djgerywhite.com/sitemap.xml
+
+# Priority crawling für wichtige Suchmaschinen
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Yandex
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# Disallow für nicht-öffentliche Bereiche
+Disallow: /api/
+Disallow: /admin/
+Disallow: /*.json$
+Disallow: /node_modules/
+Disallow: /dist/
+Disallow: /.git/
+
+# Erlauben für wichtige Assets
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.gif$
+Allow: /*.svg$
+Allow: /*.webp$
+
+# Crawl-delay für andere Bots
+User-agent: *
+Crawl-delay: 5
