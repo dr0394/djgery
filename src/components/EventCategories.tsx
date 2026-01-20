@@ -142,15 +142,17 @@ const EventCategories = () => {
                 backgroundColor: 'rgba(255, 108, 1, 0.05)'
               }}
             >
-              {t.events.badge}
+              LIVE & EVENTS
             </span>
           </div>
-          <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mt-8 mb-6 leading-tight">
-            {t.events.title}
+          <h2 className="text-6xl md:text-7xl lg:text-8xl font-bold text-white mt-8 mb-6 leading-tight">
+            ON STAGE
           </h2>
-          <p className="text-xl md:text-2xl text-gray-300/90 max-w-3xl mx-auto leading-relaxed">
-            {t.events.subtitle}
-          </p>
+          <div className="max-w-4xl mx-auto border-2 p-6 rounded-lg" style={{ borderColor: '#FF0000' }}>
+            <p className="text-xl md:text-2xl font-bold leading-relaxed" style={{ color: '#FF0000' }}>
+              Von Underground Club - Festival - Bühnen - Menschen mit Soul & Energie zum TANZEN bringen
+            </p>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -188,8 +190,22 @@ const EventCategories = () => {
                 </div>
 
                 <div className="space-y-3">
-                  <h3 className="text-3xl font-bold text-white">{category.title}</h3>
-                  <p className="text-gray-300/90 leading-relaxed text-lg">{category.description}</p>
+                  <h3 className="text-3xl font-bold text-white">
+                    {category.title}
+                    {index === 0 && (
+                      <span className="ml-3 text-base" style={{ color: '#FF0000' }}>TOP</span>
+                    )}
+                  </h3>
+                  <p className="text-gray-300/90 leading-relaxed text-lg">
+                    {index === 0 ? (
+                      <>
+                        <span className="line-through opacity-50">Energetische</span>{' '}
+                        House-Sets in den angesagtesten Clubs weltweit
+                      </>
+                    ) : (
+                      category.description
+                    )}
+                  </p>
                 </div>
 
                 <div className="pt-3">

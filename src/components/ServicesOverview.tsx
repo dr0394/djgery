@@ -95,25 +95,41 @@ const ServicesOverview = () => {
 
                 <div className="space-y-4">
                   <h3 className="text-3xl font-bold text-white">{service.title}</h3>
-                  <p className="text-gray-300/90 leading-relaxed text-lg">{service.description}</p>
+                  {service.description && <p className="text-gray-300/90 leading-relaxed text-lg">{service.description}</p>}
                 </div>
 
-                <div
-                  className="h-px"
-                  style={{ background: `linear-gradient(to right, rgba(${service.colorRgb}, 0.5), transparent)` }}
-                />
+                {index === 0 ? (
+                  <div className="bg-white p-6 rounded-lg">
+                    <ul className="space-y-3">
+                      {service.features.map((feature, idx) => (
+                        <li key={idx} className="text-center">
+                          <span className="text-xl font-bold" style={{ color: '#FF0000' }}>
+                            {feature}
+                          </span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ) : (
+                  <>
+                    <div
+                      className="h-px"
+                      style={{ background: `linear-gradient(to right, rgba(${service.colorRgb}, 0.5), transparent)` }}
+                    />
 
-                <ul className="space-y-4">
-                  {service.features.map((feature, idx) => (
-                    <li key={idx} className="flex items-start gap-3">
-                      <div
-                        className="mt-1.5 w-2 h-2 rounded-full flex-shrink-0"
-                        style={{ backgroundColor: service.color }}
-                      />
-                      <span className="text-base text-gray-300/90">{feature}</span>
-                    </li>
-                  ))}
-                </ul>
+                    <ul className="space-y-4">
+                      {service.features.map((feature, idx) => (
+                        <li key={idx} className="flex items-start gap-3">
+                          <div
+                            className="mt-1.5 w-2 h-2 rounded-full flex-shrink-0"
+                            style={{ backgroundColor: service.color }}
+                          />
+                          <span className="text-base text-gray-300/90">{feature}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </>
+                )}
               </div>
             </div>
           ))}
